@@ -36,4 +36,9 @@ $(document).ready(function(){
 	$("#btn3").on('click', function(){
 		$("#box7").toggleClass("boxy");
 	});
+
+	$("#selectKPOP").change(function(){
+		$("#result2").text($(this).val());
+	});
+
 });

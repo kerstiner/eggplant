@@ -31,6 +31,6 @@ result.innerHTML = inputtxt.value;
 
 var box7 = document.getElementById('box7');
 btn3.onclick = function(){
-box7.classList.toggle("boxy");
+box7.classList.toggle("boxy"); 
 }
 
